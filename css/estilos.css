@@ -109,24 +109,42 @@ header nav ul{
 .dropdownItem{
     font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px
 }
-@media screen and (max-width: 768px){}
+@media (max-width: 767px) {
     body {
-        font-size: 16px;
+        font-size: 16px; 
     }
+
     h1 {
-        font-size: 24px; 
-        margin: 10px; 
+        font-size: 40px; 
+    }
+
+    h2 {
+        font-size: 18px; 
+    }
+
+    h3 {
+        font-size: 22px; 
+    }
+
+    .logoImg {
+        width: 80px; 
+        height: 80px; 
+        margin-right: 15px; 
     }
     .textoImagen {
         flex-direction: column; 
-        align-items: center; 
-        margin: 10px 0; 
+        align-items: flex-start; 
+        margin-left: 0; 
     }
 
     .textoImagen img {
-        max-width: 100%;
-        margin: 0; 
+        max-width: 100%; 
+        margin-right: 0;
+        margin-bottom: 10px;
     }
-    .textoImagen p {
-        text-align: center; 
+
+    .alinearTexto {
+        flex: 0; 
+        margin-left: 0;
+        text-align: left;
     }
